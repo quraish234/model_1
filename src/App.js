@@ -29,10 +29,10 @@ import { useLoader } from "@react-three/fiber";
     //const gltf = useLoader(GLTFLoader, "./Sfm.gltf");
     //const gltf = useLoader(GLTFLoader, "./Qpose.gltf");
     //const gltf = useLoader(GLTFLoader, "./armdown.gltf");
-    const gltf = useLoader(GLTFLoader, "./armdown.gltf");
+    //const gltf = useLoader(GLTFLoader, "./armdown.gltf");
     //const gltf = useLoader(GLTFLoader, "./bjacket.gltf");
     //const gltf = useLoader(GLTFLoader, "./blue.gltf");
-    //const gltf = useLoader(GLTFLoader, "./abaya.gltf");
+    const gltf = useLoader(GLTFLoader, "./abaya.gltf");
     //const gltf = useLoader(GLTFLoader, "./untitled.gltf");
     //const gltf = useLoader(GLTFLoader, "./Poimandres.gltf");
     return (
@@ -52,7 +52,7 @@ import { useLoader } from "@react-three/fiber";
         
         <Suspense fallback={null}>
           <Model />
-          <OrbitControls target={[0, 2.5, 0]} />
+          <OrbitControls target={[0, 4, 0]} />
           <Environment preset="apartment" background={false} />
         </Suspense>
       </Canvas>
