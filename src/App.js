@@ -28,6 +28,7 @@ import { useLoader } from "@react-three/fiber";
   const Model = () => {
     //const gltf = useLoader(GLTFLoader, "./Sfm.gltf");
     //const gltf = useLoader(GLTFLoader, "./Qpose.gltf");
+    //const gltf = useLoader(GLTFLoader, "./armdown.gltf");
     const gltf = useLoader(GLTFLoader, "./armdown.gltf");
     //const gltf = useLoader(GLTFLoader, "./bjacket.gltf");
     //const gltf = useLoader(GLTFLoader, "./blue.gltf");
